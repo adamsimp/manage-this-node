@@ -1,5 +1,7 @@
 # manage-this-node
 
+[![](https://badge.imagelayers.io/asimpson/managethis:latest.svg)](https://imagelayers.io/?images=asimpson/managethis:latest 'Get your own badge on imagelayers.io')
+
 NodeJS version of [Muximux](https://github.com/mescon/Muximux/) and [Managethis](https://github.com/Tenzinn3/Managethis)
 
 Getting Started
@@ -71,7 +73,7 @@ App Specific Workarounds
 **Emby**  
 By Default Emby sends a header that prevents loading in an iframe.   
 
-Windows: 
+Windows:
 * Edit `C:\Users\<username>\AppData\Roaming\MediaBrowser-Server\config\system.xml`  
 * Look for `<DenyIFrameEmbedding>true</DenyIFrameEmbedding>` replace `true` with `false`  
 * Should look like `<DenyIFrameEmbedding>false</DenyIFrameEmbedding>`  
